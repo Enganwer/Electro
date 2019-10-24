@@ -1,0 +1,10 @@
+1-sort students by success state (1 first), gpa(desc)
+2-check student first desire 
+3-check section
+	check section (number of student<=maximum number of student in this section)
+	OR (gpa and state of current student = gpa and state of least student in section)
+	if true
+			1-insert student in section
+			2-goto next student
+	else
+			1-goto student next desire
